@@ -1,3 +1,4 @@
+/* Juan Fernando Ruiz HW3 for GUI1 Summer 2024, finished on 6/4/2024 */
 body {
     background-color: #303841;
 }
@@ -14,6 +15,7 @@ th, td {
     padding: 8px; 
     color: white;
   }
+/* This part here was also a bit tricky but the lecture video on the n-th child thing helped! */
 th:first-child, td:first-child {
     background-color: #f0f0f0;
     color:black;
@@ -37,6 +39,7 @@ tr:first-child th {
     overflow-y: auto;
     display: block;
   }
+/* This part was the most tricky to me, in terms of figuring out how to set the scrolling window and the z indexes*/
   .sticky-top-row th {
     position: sticky;
     top: 0;
