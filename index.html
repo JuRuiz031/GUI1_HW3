@@ -1,0 +1,29 @@
+<!-- Juan Fernando Ruiz HW3 for GUI1 Summer 2024, finished on 6/4/2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Multiplication Table</title>
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <form id="multiplicationForm">
+        <label for="startRow">Start Row:</label>
+        <input type="number" id="startRow" name="startRow" value="0">
+        <label for="endRow">End Row:</label>
+        <input type="number" id="endRow" name="endRow" value="10">
+        <label for="startCol">Start Col:</label>
+        <input type="number" id="startCol" name="startCol" value="0">
+        <label for="endCol">End Col:</label>
+        <input type="number" id="endCol" name="endCol" value="10">
+        <button type="submit">Generate Table</button>
+    </form>
+    <div id="errorContainer" class="error"></div>
+    <div id="tableContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
